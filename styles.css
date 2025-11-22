@@ -1,0 +1,19 @@
+.spinning {
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 35%;
+	margin-bottom: 35%;
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	animation-duration: 0.7s;
+	animation-timing-function: linear;
+}
+
+@keyframes spin {
+	from {transform: rotateY(360deg);}
+	to {transform: rotateY(0deg);}
+}
+
+.spinning img {
+	width: 400px;
+}
